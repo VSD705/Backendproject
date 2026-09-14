@@ -1,0 +1,4 @@
+name: chaibackend
+values:
+  - key: server
+    value: 'http://localhost:8000/api/v1'

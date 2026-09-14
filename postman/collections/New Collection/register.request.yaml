@@ -1,0 +1,39 @@
+$kind: http-request
+url: http://localhost:8000/api/v1/users/register
+method: POST
+body:
+  type: formdata
+  content:
+    - type: text
+      key: fullname
+      value: vesede
+      description: ""
+      disabled: false
+    - type: text
+      key: email
+      value: vsd@vsd.com
+      description: ""
+      disabled: false
+    - type: text
+      key: username
+      value: usrnm
+      description: ""
+      disabled: false
+    - type: text
+      key: password
+      value: "12345678"
+      description: ""
+      disabled: false
+    - type: file
+      key: avatar
+      src:
+        - /C:/Users/dhama/Downloads/Screenshot 2026-07-14 103759.png
+      description: ""
+      disabled: false
+    - type: file
+      key: coverImage
+      src:
+        - /C:/Users/dhama/Downloads/Screenshot 2026-07-14 103641.png
+      description: ""
+      disabled: false
+order: 1789047820823
